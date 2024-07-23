@@ -1,0 +1,22 @@
+.container {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  padding: 20px 70px;
+  overflow-x: auto;
+  display: grid;
+  align-items: center;
+  grid-gap: 40px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  img {
+    width: 100%;
+    max-width: 150px;
+    min-width: 100px;
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    padding: 20px;
+  }
+}

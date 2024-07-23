@@ -1,0 +1,49 @@
+:root {
+  --primary-color: #000;
+  --secondary-color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+  padding: 0px !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.defaultInput {
+  border: none;
+  background-color: #e7e7e7;
+  height: 45px;
+  padding: 5px;
+  font-family: poppins;
+  width: 100%;
+}
+
+.content {
+  min-height: calc(100dvh - 370px);
+  padding-top: 127.68px;
+}
+
+.hr {
+  margin-bottom: 5px;
+  height: 1px;
+  width: 30%;
+  background-color: #ccc;
+}
+
+@media (max-width: 900px) {
+  .content {
+    padding-top: 86.88px;
+  }
+}

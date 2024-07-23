@@ -1,0 +1,20 @@
+.text {
+  width: 100%;
+  padding: 20px 70px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  p {
+    width: 50%;
+  }
+}
+@media (max-width: 900px) {
+  .text {
+    padding: 20px;
+
+    p {
+      width: 100%;
+    }
+  }
+}
