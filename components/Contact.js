@@ -100,6 +100,7 @@ function Contact(props) {
                 style={{ height: "150px" }}
                 name="message"
                 onChange={onChange}
+                required
               />
             </div>
             <p>Votre adresse courriel ne sera pas publiée *</p>
