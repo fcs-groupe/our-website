@@ -63,6 +63,7 @@ function Contact(props) {
                 type="text"
                 placeholder="Nom*"
                 name="firstName"
+                value={formData.firstName}
                 onChange={onChange}
                 required
               />
@@ -71,6 +72,7 @@ function Contact(props) {
                 type="text"
                 placeholder="Prénom*"
                 name="lastName"
+                value={formData.lastName}
                 onChange={onChange}
                 required
               />
@@ -81,6 +83,7 @@ function Contact(props) {
                 type="number"
                 placeholder="Téléphone*"
                 name="phone"
+                value={formData.phone}
                 onChange={onChange}
                 required
               />
@@ -89,6 +92,7 @@ function Contact(props) {
                 type="email"
                 placeholder="Email*"
                 name="email"
+                value={formData.email}
                 onChange={onChange}
                 required
               />
@@ -99,6 +103,7 @@ function Contact(props) {
                 placeholder="Message"
                 style={{ height: "150px" }}
                 name="message"
+                value={formData.message}
                 onChange={onChange}
                 required
               />
