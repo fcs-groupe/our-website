@@ -55,12 +55,7 @@ function Footer(props) {
         </div>
       </div>
       <div className={styles.bottom}>
-        <p>
-          Copyright © 2024, FCS GROUPE All Rights Reserved Powered by{" "}
-          <Link rel="noreferrer" target="_blank" href={"https://creo.tn"}>
-            creo
-          </Link>
-        </p>
+        <p>Copyright © 2024, FCS GROUPE All Rights Reserved.</p>
       </div>
     </div>
   );
