@@ -11,7 +11,7 @@ router.post(async (req, res) => {
         {
           replyTo: process.env.AUTH_EMAIL,
           from: process.env.AUTH_EMAIL,
-          to: process.env.AUTH_SUPERADMIN_EMAIL,
+          to: process.env.AUTH_EMAIL,
           subject: firstName + " " + lastName,
           text: `Nom: ${phone}\n\nPrénom: ${phone}\n\nEmail: ${email}\n\nTéléphone: ${phone}\n\nMessage: ${message}`,
         },
@@ -29,6 +29,7 @@ router.post(async (req, res) => {
         "Nous avons bien reçu votre message et nous vous contacterons dès que possible.",
     });
   } catch (error) {
+    console.log(error);
     res.status(400).json(error);
   }
 });
